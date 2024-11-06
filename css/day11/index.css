@@ -1,0 +1,55 @@
+body{
+    background-color: orange;
+}
+@media (min-width:0px) and ( max-width:401px){
+    body{
+        background-color: black;
+    }
+    P{
+        font-size: 3rem;
+    }
+    img {
+        width: 40vw;
+        border-radius: 5px;
+    }
+
+}
+
+@media  (min-width:402px) and ( max-width:727px){
+    body{
+        background-color:purple;
+    }
+    P{
+        font-size: 3rem;
+    }
+    img {
+        width: 40vw;
+    }
+    
+
+}
+
+@media (min-width:728px) and ( max-width:1200px){
+    body{
+        background-color:blue;
+    }
+    P{
+        font-size: 3rem;
+    }
+    img {
+        width: 40vw;
+    }
+}
+
+    
+@media (min-width:1201px) and ( max-width:1399px){
+    body{
+        background-color: pink;
+    }
+    P{
+        font-size: 3rem;
+    }
+    img {
+        width: 40vw;
+    }
+}

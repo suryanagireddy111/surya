@@ -1,0 +1,16 @@
+button{
+    background-color: purple;
+    padding: 10px;
+    border-radius: 10px;
+    
+}
+button:hover{
+    background-color: blueviolet;
+   padding: 10px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 4px ;
+}
+button:active{
+    background-color: rgb(193, 167, 167);
+    padding: 30px;
+}
